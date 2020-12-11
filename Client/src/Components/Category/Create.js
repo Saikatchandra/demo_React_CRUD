@@ -35,13 +35,7 @@ function Create(){
             <Container>
             <Row>
                 <Col><h3>Create Category </h3></Col>
-                <Col>
-                <Link to="/">
-                    <Button variant="secondary" size="sm" id="btn">
-                    Back
-                </Button>
-                </Link>
-                </Col>
+                
             </Row>
              <Form>
                 <Form.Group controlId="formBasicEmail">
@@ -55,6 +49,11 @@ function Create(){
                 <Button variant="primary" type="submit" onClick={()=>saveCategory()}>
                     Submit
                 </Button>
+                <Link to="/">
+                    <Button variant="secondary" id="btnBack">
+                    Back
+                </Button>
+                </Link>
              </Form>
             </Container>
         </div>

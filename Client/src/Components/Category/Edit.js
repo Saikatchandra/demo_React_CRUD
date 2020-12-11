@@ -56,13 +56,7 @@ function Edit(props){
             <Container>
             <Row>
                 <Col><h3>Edit Category </h3></Col>
-                <Col>
-                <Link to="/">
-                    <Button variant="secondary" size="sm" id="btn">
-                    Back
-                </Button>
-                </Link>
-                </Col>
+                
             </Row>
              <Form>
                 <Form.Group controlId="formBasicEmail">
@@ -76,6 +70,11 @@ function Edit(props){
                 <Button onClick={()=>updateCategory()} variant="primary" type="submit">
                     Submit
                 </Button>
+                <Link to="/">
+                    <Button variant="secondary" size="sm" id="btnBack">
+                    Back
+                </Button>
+                </Link>
              </Form>
             </Container>
         </div>

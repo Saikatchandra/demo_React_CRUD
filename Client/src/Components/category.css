@@ -1,5 +1,8 @@
-#btn {
-  float: right;
+#btnBack {
+ margin-left: 5px;
+}
+#btnAdd {
+ float: right;
 }
 
 #table {

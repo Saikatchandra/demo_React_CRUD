@@ -48,7 +48,7 @@ function List(){
             <Col><h3>Category list</h3></Col>
             <Col>
             <Link to="/add">
-                <Button variant="secondary" size="sm" id="btn">
+                <Button variant="secondary" size="sm" id="btnAdd">
                 Add Category
             </Button>
             </Link>
