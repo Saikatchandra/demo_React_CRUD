@@ -13,7 +13,7 @@ import CategoryService from "./../Services/CategoryService"
 
 function List(){
 
-    const [listCategory, setListCategory] = useState([]);
+    const [ listCategory, setListCategory ] = useState([]);
 
     useEffect(()=>{
             async function fetchCategory(){
@@ -31,7 +31,7 @@ function List(){
            alert(res.message)
           const newList = listCategory
           newList.splice(i,1);
-          setListCategory(newList);
+          setListCategory([...newList]);
          }
          else{
            alert(res.message)
